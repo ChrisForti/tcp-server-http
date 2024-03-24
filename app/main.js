@@ -9,6 +9,9 @@ const DIRECTORY = getDirectoryFromArgs();
 console.log("Logs from your program will appear here!");
 
 function getDirectoryFromArgs() {
+  if (process.argv.length === 0) {
+    return "";
+  }
   for (let i = 0; i < process.argv.length; i++) {
     if (process.argv[i] === "--directory" && i < process.argv.length - 1) {
       return process.argv[i + 1];
