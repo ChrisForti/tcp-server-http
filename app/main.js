@@ -25,7 +25,7 @@ async function getFileContent(file_name) {
   const data = await fs.promises.readFile(full_path);
   // to test the non blocking behavior of Node uncomment the line below
   // and try other requests while awaiting for the file
-  // const delay = await new Promise(resolve => setTimeout(resolve, 10000));
+  const delay = await new Promise((resolve) => setTimeout(resolve, 10000));
   return data;
 }
 
