@@ -1,8 +1,8 @@
 # About
 
 - This is a TCP server built primatily with javaScript.
-- Utilizing node for the runtime enviroment.
-- Using the HTTP protocol.
+  - Utilizing node for the runtime enviroment.
+  - Built within the HTTP protocol.
 
 ## Usage
 
