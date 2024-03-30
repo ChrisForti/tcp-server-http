@@ -14,7 +14,7 @@ iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/in
   - Darwin/mac run:`curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash`
   - Linux run:`curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash`
 
-  - Then run `node app/main.js`
+- Then run `node app/main.js`
 
 #### Built With
 
