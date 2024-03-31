@@ -8,15 +8,14 @@
 
 1. After cloning the repo /verify/ that your in `tcp-server-http`
 2. Ensure you have `node (18)` or better installed locally \
-
-- run: `which node`
-
-* windows run:`Set-ExecutionPolicy Bypass -Scope Process -Force;[System.Net.ServicePointManager]::SecurityProtocol= [System.Net.ServicePointManager]::SecurityProtocol -bor 3072;
-iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'));`
-  - Then run `choco install nodejs --version="desired version"`
+   - run: `which node`
 
 - Darwin/mac run:`curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash`
 - Linux run:`curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash`
+- windows run:`Set-ExecutionPolicy Bypass -Scope Process -Force;[System.Net.ServicePointManager]::SecurityProtocol= [System.Net.ServicePointManager]::SecurityProtocol -bor 3072;
+iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'));`
+
+  - Then run `choco install nodejs`
 
 * Then run `node app/main.js`
 
@@ -25,7 +24,7 @@ iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/in
 - Once server is running, open another terminal. If in an IDE, then open local shell. If in local shell, open another shell
   - Then run: `nc localhost 4221`
   - Simultaneous request first run the `nc localhost 4221`, open another terminal and then run: `curl localhost:4221`
-    - **Server has been built to utilize the non-blocking functionality of node**
+    - ** Server has been built to utilize the non-blocking functionality of node **
 - To test sending content, within a file run `curl -vvv -d "Hello world!!!" localhost:4221/files/test-file.txt`
 
 #### Built With
