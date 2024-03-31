@@ -4,7 +4,7 @@
   - Utilizing node for the runtime enviroment.
   - Built within the HTTP protocol.
 
-## Usage
+## Usage:
 
 **After cloning the repo verify that your in** `tcp-server-http`
 **Ensure you have**`node (18)`**or better installed locally**
@@ -12,15 +12,17 @@
 - To verify run: `which node`
   **For node installtion**:
 
-> - Darwin/mac run:`curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash`
-> - Linux run:`curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash`
-> - Windows run:`Set-ExecutionPolicy Bypass -Scope Process -Force;[System.Net.ServicePointManager]::SecurityProtocol= [System.Net.ServicePointManager]::SecurityProtocol -bor 3072;
-iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'));`
->   **Then run `choco install nodejs`**
+### Darwin/mac run:`curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash`
 
-3. Then run `node app/main.js`
+### Linux run:`curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash`
 
-### Testing
+### Windows run:`Set-ExecutionPolicy Bypass -Scope Process -Force;[System.Net.ServicePointManager]::SecurityProtocol= [System.Net.ServicePointManager]::SecurityProtocol -bor 3072;iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'));`
+
+- Then run: `choco install nodejs`
+
+3. If all other dependencies are present run: `node app/main.js`
+
+## Testing
 
 - Once server is running, open another terminal. If in an IDE, then open local shell. If in local shell, open another shell
   - Then run: `nc localhost 4221`
