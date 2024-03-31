@@ -6,7 +6,7 @@
 
 ## Usage
 
-**After cloning the repo /verify/ that your in** `tcp-server-http`
+**After cloning the repo verify that your in** `tcp-server-http`
 **Ensure you have**`node (18)`**or better installed locally**
 
 - To verify run: `which node`
