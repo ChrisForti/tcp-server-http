@@ -20,6 +20,11 @@ iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/in
 
 * Then run `node app/main.js`
 
+### Testing
+
+- once server is running, open another terminal. If in an IDE, then open local shell. If in local shell, open another shell
+  - then run: `nc localhost 4221`
+
 #### Built With
 
 <p> 
