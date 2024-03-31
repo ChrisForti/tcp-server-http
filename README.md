@@ -6,9 +6,10 @@
 
 ## Usage
 
-1. After cloning the repo /verify/ that your in `tcp-server-http`
-2. Ensure you have `node (18)` or better installed locally \
-   - run: `which node`
+** After cloning the repo /verify/ that your in ** `tcp-server-http`
+** Ensure you have ** `node (18)` ** or better installed locally **
+
+- run: `which node`
 
 - Darwin/mac run:`curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash`
 - Linux run:`curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash`
