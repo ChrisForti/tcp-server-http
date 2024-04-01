@@ -10,15 +10,21 @@
 **Ensure you have**`node (18)`**or better installed locally**
 
 - To verify run: `which node`
-  **For node installtion**:
 
-### Darwin/mac run:`curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash`
+**For node installtion**:
 
-### Linux run:`curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash`
+### Darwin/mac run:
 
-### Windows run:`Set-ExecutionPolicy Bypass -Scope Process -Force;[System.Net.ServicePointManager]::SecurityProtocol= [System.Net.ServicePointManager]::SecurityProtocol -bor 3072;iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'));`
+- `curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash`
 
-- Then run: `choco install nodejs`
+### Linux run:
+
+- `curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash`
+
+### Windows run:
+
+- `Set-ExecutionPolicy Bypass -Scope Process -Force;[System.Net.ServicePointManager]::SecurityProtocol= [System.Net.ServicePointManager]::SecurityProtocol -bor 3072;iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'));`
+  - Then run: `choco install nodejs`
 
 3. If all other dependencies are present run: `node app/main.js`
 
