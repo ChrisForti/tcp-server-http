@@ -32,7 +32,7 @@
   - Then run: `nc localhost 4221`
   - Simultaneous request first run the `nc localhost 4221`, open another terminal and then run: `curl localhost:4221`
     - ** Server has been built to utilize the non-blocking functionality of node **
-- To test sending content, within a file run `curl -vvv -d "Hello world!!!" localhost:4221/files/test-file.txt`
+- To test sending content, within a file run `curl -vvv -d "Hello world!!!" localhost:4221/files/readme.txt`
 
 #### Built With
 
