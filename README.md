@@ -6,12 +6,10 @@
 
 ## Usage:
 
-**After cloning the repo verify that your in** `tcp-server-http`
-**Ensure you have**`node (18)`**or better installed locally**
+1. First clone the repo verify that your in `tcp-server-http`
+2. Verify that you have **nodejs 18**, or better installed.
 
-- To verify run: `which node`
-
-**For node installtion**:
+- **If not not here are install scripts for all the major platforms**
 
 ### Darwin/mac run:
 
